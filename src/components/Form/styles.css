@@ -1,0 +1,72 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 15px 0px 15px 10px;
+    margin: 8px;
+    background-color: transparent;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+}
+input:focus{
+    outline: none;
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 14px;
+}
+input:hover{
+    background-color: #495057;
+}
+.div-password{
+    display: flex;
+    flex-direction: row;
+}
+.password-left{
+    display: flex;
+    flex-direction: column;
+}
+.password-right{
+    display: flex;
+    flex-direction: column;
+}
+.div-checkbox{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.span-checkbox{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+button{
+    margin-top: 15px;
+    background-color: #03045e;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #023e8a;
+    cursor: pointer;
+}
+a{
+    color: #0077b6;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: end;
+}
+a:hover{
+    color: #00b4d8;
+}
+span{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 15px;
+    color: #bb3e03;
+}
