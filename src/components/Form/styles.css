@@ -54,14 +54,14 @@ button:hover{
     background-color: #023e8a;
     cursor: pointer;
 }
-a{
+p{
     color: #0077b6;
     text-decoration: none;
     font-size: 14px;
     margin-top: 15px;
     text-align: end;
 }
-a:hover{
+p:hover{
     color: #00b4d8;
 }
 span{
