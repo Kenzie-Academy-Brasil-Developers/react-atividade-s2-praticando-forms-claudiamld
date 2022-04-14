@@ -2,15 +2,11 @@ import './App.css';
 import Form from './components/Form';
 import {Route, Switch} from 'react-router-dom'
 import UserCard from './components/UserCard';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function App() {
 
   const [users, setUsers] = useState([])
-
-  useEffect(() => {
-    console.log(users);
-}, [users, setUsers])
 
   return (
     <div className="App">
